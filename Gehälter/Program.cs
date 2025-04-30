@@ -1,0 +1,12 @@
+﻿namespace Gehälter;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Worker Peter = new PermanentEmployee("Peter", "IT", 10000);
+        Worker Marie = new HourlyWageWorker("Marie", "IT", 15);
+        Console.WriteLine(Peter.calculateSalary());
+        Console.WriteLine(Marie.calculateSalary());
+    }
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gehälter", "Gehälter\Gehälter.csproj", "{2B89AA58-B4E2-4B47-8591-0204D176E639}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Studierendenverwaltung", "Studierendenverwaltung\Studierendenverwaltung.csproj", "{76409194-ECD1-4F04-B51C-551C1D3A4A8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiere", "Tiere\Tiere.csproj", "{F275301C-B6AF-4AF5-8B0A-23B69F0A218A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B89AA58-B4E2-4B47-8591-0204D176E639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B89AA58-B4E2-4B47-8591-0204D176E639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B89AA58-B4E2-4B47-8591-0204D176E639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B89AA58-B4E2-4B47-8591-0204D176E639}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76409194-ECD1-4F04-B51C-551C1D3A4A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76409194-ECD1-4F04-B51C-551C1D3A4A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76409194-ECD1-4F04-B51C-551C1D3A4A8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76409194-ECD1-4F04-B51C-551C1D3A4A8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F275301C-B6AF-4AF5-8B0A-23B69F0A218A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F275301C-B6AF-4AF5-8B0A-23B69F0A218A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F275301C-B6AF-4AF5-8B0A-23B69F0A218A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F275301C-B6AF-4AF5-8B0A-23B69F0A218A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

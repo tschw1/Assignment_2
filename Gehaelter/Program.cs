@@ -1,4 +1,4 @@
-﻿namespace Gehälter;
+﻿namespace Gehaelter;
 
 class Program
 {

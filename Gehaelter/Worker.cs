@@ -1,4 +1,4 @@
-namespace Gehälter;
+namespace Gehaelter;
 
 public abstract class Worker
 {

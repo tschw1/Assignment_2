@@ -35,10 +35,7 @@ public class Student
     }
     public void showInfo()
     {
-        Console.WriteLine("Name: " + Name);
-        Console.WriteLine("Matrikelnummer: " + Matrikelnummer);
-        Console.WriteLine("Alter: " + Age);
-        Console.WriteLine("Durchschnittsnote: " + getAverage());
+        Console.WriteLine("Name: " + Name + "\nMatrikelnummer: " + Matrikelnummer + "\nAlter: " + Age + "\nDurchschnittsnote: " + getAverage());
     }
 
     //Constructor

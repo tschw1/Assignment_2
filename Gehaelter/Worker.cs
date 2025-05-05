@@ -7,7 +7,7 @@ public abstract class Worker
     public string Department { get; set; }
 
     //Method
-    public abstract double calculateSalary();
+    public abstract double CalculateSalary();
 
     //Constructor
     public Worker(string name, string department)
@@ -23,7 +23,7 @@ public class PermanentEmployee : Worker
     public double Salary { get; set; }
 
     //Methods
-    public override double calculateSalary()
+    public override double CalculateSalary()
     {
         return Salary;
     }
@@ -47,7 +47,7 @@ public class HourlyWageWorker : Worker
         double hoursWorked = Convert.ToDouble(Console.ReadLine());
         return hoursWorked;
     }
-    public override double calculateSalary()
+    public override double CalculateSalary()
     {
         return HourlyWage * HoursWorked();
     }
